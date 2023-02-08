@@ -23,7 +23,6 @@ hf.get_basic_info(data)
 
 data['sales'] = data['sales'].replace('[$,]', '', regex=True)
 data = data[data['pet_type'].str.contains('cat|dog|fish|bird') == True]
-
 for column in data.columns:
     hf.set_type(data, column)
     # int, str, int, float, str, str, str, int, bool
