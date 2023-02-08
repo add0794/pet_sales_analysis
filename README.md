@@ -1,4 +1,15 @@
-# pet_sales_analysis
+# Pet Sales Analysis
+
+PetMind is a nationwide pet product retailer in the United States. With inflation hitting 41-year highs, the company is planning to reduce the cost of customer retention by improving brand loyalty. The first strategy is to launch a monthly pet box subscription in three months.
+
+The marketing team is preparing a list of popular products for the pet box subscription. The chief marketing officer wants to know whether the list should only include the products being purchased more than once.
+
+
+The marketing team would like to answer the following questions to help with the decision:
+
+- How many products are being purchased more than once?
+- Do the products being purchased again have better sales than others?
+- What products are more likely to be purchased again for different types of pets?
 
 ## **Data Validation**
 
@@ -17,11 +28,11 @@ Looking at the remaining columns, I now had the following:
 
 All products are sold more than once. It's important to keep in mind that, overall, products still have greater counts of being sold once: 390, sold more than once; 443, sold once. This can be well represented in a stacked bar graph.
 
-![image](https://user-images.githubusercontent.com/78614107/217385988-3ad2ebf7-5b27-41bd-b735-1863c11715ac.png)
+![Overall Count of Products Sold](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_1.png)
 
 Equipment, snack, and toys are sold more than once the most, with 69, 59, and 58 units sold, respectively. The pet store should prioritize these items rather than the least resold item, grooming, which resold 17 units. In fact, equipment was resold 3.5-times as much as grooming.
 
-![image](https://user-images.githubusercontent.com/78614107/217386040-28b1f625-94d8-4720-9871-0dc59b6169b8.png)
+![Count of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_2.png)
 
 **Do the products being purchased again have better sales than others?**
 
@@ -29,10 +40,7 @@ As a whole, products sold more than once have lower sales than products sold onc
 
 In fact, of the products sold once, supplements, toys, snack, clothes, and grooming have sales as much as 25% higher. On the other hand, housing and bedding sold higher when being sold more than once, with both selling at around 25% higher. With equipment, snacks, and toys, those differences can rack up considerable sales' differences. For equipment, which is sold more than once, that's &dollar;973,000. For snacks and toys, that's &dollar;2,443,000 and &dollar;2,285,000, respectively.
 
-![image](https://user-images.githubusercontent.com/78614107/217386327-e170b086-de51-465b-8714-f8eab9c18f92.png)
-![image](https://user-images.githubusercontent.com/78614107/217386340-366d00bb-31cf-4b3f-bc9c-04181ab83e7d.png)
-![image](https://user-images.githubusercontent.com/78614107/217386351-f742aa42-e4ab-4465-8e23-1a77f688545d.png)
-![image](https://user-images.githubusercontent.com/78614107/217386364-f1845f52-9a20-4206-b7b4-2e7fafde9d07.png)
+![Sales of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_3.png)
 
 **What products are more likely to be purchased again for different types of pets?**
 
@@ -46,7 +54,10 @@ I found that for the following pets, these products had higher counts when being
 
 For birds, there is no such product.
 
-![image](https://user-images.githubusercontent.com/78614107/217386127-1aa3c92c-b472-49ad-9b89-b73b65460fcd.png)
+![Cat Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/main/output_4.png)
+![Dog Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/main/output_5.png)
+![Fish Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_6.png)
+![Bird Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_7.png)
 
 The pet store should prioritize, however, one product for each pet. Because dogs have 6 products on that list, it would be inefficient to do otherwise.
 
