@@ -4,7 +4,6 @@ PetMind is a nationwide pet product retailer in the United States. With inflatio
 
 The marketing team is preparing a list of popular products for the pet box subscription. The chief marketing officer wants to know whether the list should only include the products being purchased more than once.
 
-
 The marketing team would like to answer the following questions to help with the decision:
 
 - How many products are being purchased more than once?
@@ -28,11 +27,11 @@ Looking at the remaining columns, I now had the following:
 
 All products are sold more than once. It's important to keep in mind that, overall, products still have greater counts of being sold once: 390, sold more than once; 443, sold once. This can be well represented in a stacked bar graph.
 
-![Overall Count of Products Sold](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_1.png)
+![Overall Count of Products Sold](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_1.png)
 
 Equipment, snack, and toys are sold more than once the most, with 69, 59, and 58 units sold, respectively. The pet store should prioritize these items rather than the least resold item, grooming, which resold 17 units. In fact, equipment was resold 3.5-times as much as grooming.
 
-![Count of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_2.png)
+![Count of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_2.png)
 
 **Do the products being purchased again have better sales than others?**
 
@@ -40,7 +39,7 @@ As a whole, products sold more than once have lower sales than products sold onc
 
 In fact, of the products sold once, supplements, toys, snack, clothes, and grooming have sales as much as 25% higher. On the other hand, housing and bedding sold higher when being sold more than once, with both selling at around 25% higher. With equipment, snacks, and toys, those differences can rack up considerable sales' differences. For equipment, which is sold more than once, that's &dollar;973,000. For snacks and toys, that's &dollar;2,443,000 and &dollar;2,285,000, respectively.
 
-![Sales of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_3.png)
+![Sales of Products Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_3.png)
 
 **What products are more likely to be purchased again for different types of pets?**
 
@@ -54,10 +53,10 @@ I found that for the following pets, these products had higher counts when being
 
 For birds, there is no such product.
 
-![Cat Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/main/output_4.png)
-![Dog Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/main/output_5.png)
-![Fish Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_6.png)
-![Bird Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/1843b26c4f6c35367da35b92b88ad9e7fb02f450/output_7.png)
+![Cat Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_4.png)
+![Dog Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_5.png)
+![Fish Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_6.png)
+![Bird Product Sold More Than Once](https://github.com/add0794/pet_sales_analysis/blob/e0e572698563b3501f7fb1de50ca236c126cc8a9/images/output_7.png)
 
 The pet store should prioritize, however, one product for each pet. Because dogs have 6 products on that list, it would be inefficient to do otherwise.
 
